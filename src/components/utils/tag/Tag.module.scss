@@ -1,0 +1,16 @@
+.tag {
+  display: inline;
+  border-radius: 50rem;
+  font-size: 1.2vw;
+  font-weight: 700;
+  padding: 0.7vw 1.2vw;
+
+  outline: 2px solid black;
+  outline-offset: -2px;
+  color: black;
+  cursor: pointer;
+  &:hover {
+    color: white;
+    background-color: black;
+  }
+}

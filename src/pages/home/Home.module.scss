@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: 100vh;
+
+  .sidebar {
+    width: 15rem;
+    background-color: var(--blue-color);
+    flex-shrink: 0;
+  }
+
+  .wrapper {
+    flex: 10;
+    min-width: 0;
+    padding: 0 15rem;
+    padding-right: calc(15rem + 7vw);
+  }
+}
